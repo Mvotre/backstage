@@ -6,6 +6,7 @@ metadata:
   # Optional annotations
   annotations:
     github.com/user-login: Mvotre
+    backstage.io/managed-by-location: url:https://github.com/Mvotre/backstage/edit/main/userentity.yaml
 spec:
   profile:
     displayName: Marcel Votre
