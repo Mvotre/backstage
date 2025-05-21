@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Mvotre
-  description: Jane Doe's user entity
 spec:
-  # Add any specific user data here, e.g., email, display name
-  email: jane.doe@example.com
-  displayName: Jane Doe
+  profile:
+    displayName: Jenny Doe
+    email: jenny-doe@example.com
+  memberOf: []
