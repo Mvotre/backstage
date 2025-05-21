@@ -1,15 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Marcel Votre
-  description: Project Owner
-  # Optional annotations
-  annotations:
-    github.com/user-login: Mvotre
-    backstage.io/managed-by-location: url:https://github.com/Mvotre/backstage/edit/main/userentity.yaml
+  name: Mvotre
+  description: Jane Doe's user entity
 spec:
-  profile:
-    displayName: Marcel Votre
-    email: mvotre@example.com
-    picture: https://example.com/staff/example.jpeg # Optional profile picture URL
-  memberOf: [team-a, team-b] # Optional team memberships
+  # Add any specific user data here, e.g., email, display name
+  email: jane.doe@example.com
+  displayName: Jane Doe
